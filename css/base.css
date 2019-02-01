@@ -1,0 +1,111 @@
+* {
+    text-decoration: none!important;
+}
+
+/*SVG styles*/
+a svg {
+    width: 35px;
+    height: 35px;
+}
+
+.twitter:hover {
+    fill: #00aced;
+}
+
+.facebook:hover {
+    fill: #3b5998;
+}
+
+.github:hover {
+    fill: #6e5494;
+}
+
+.linkedin:hover {
+    fill: #0077b5;
+}
+
+.contact:hover {
+    fill: #0069d9;
+}
+
+/*card styles*/
+
+.card {
+    transition: box-shadow .4s;
+}
+
+.card:hover {
+    -webkit-box-shadow: 8px 7px 5px 0 rgba(224,224,224,1);
+    -moz-box-shadow: 8px 7px 5px 0 rgba(224,224,224,1);
+    box-shadow: 8px 7px 5px 0 rgba(224,224,224,1);
+}
+
+.card-img-top {
+    height: 250px;
+}
+
+.card-img-top,
+.modal-img {
+    object-fit: contain;
+}
+
+/*modal styles*/
+
+.modal-img {
+    max-height: 150px;
+}
+
+.switch-control {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    padding: 10px;
+}
+
+.switch-control:after {
+    content: '';
+    padding: 10px;
+    width: 3px;
+    height: 3px;
+    border-left: 1px solid #d1d1d1;
+    border-bottom: 1px solid #d1d1d1;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.switch-control:hover:after {
+    border-color: #9c9c9c;
+    transition: border-color .2s linear;
+}
+
+.switch-back {
+    left: 10px;
+}
+
+.switch-back:after {
+    transform: rotate(45deg);
+}
+
+.switch-forth {
+    right: 10px;
+}
+
+.switch-forth:after {
+    transform: rotate(225deg);
+}
+
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .modal-img {
+        max-height: 300px;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .modal-img {
+        max-height: 500px;
+    }
+}

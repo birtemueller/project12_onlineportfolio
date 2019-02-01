@@ -1,0 +1,113 @@
+{
+    "projects": [
+        {
+            "name": "Personal Profile Page",
+            "description": "In this first Treehouse Techdegree project I created a personal project page with the use of <strong>HTML<\/strong> and <strong>CSS<\/strong>. A default design was given and I customized it to my personal taste.",
+            "github": "https://github.com/birtemueller/project1_ppp",
+            "img": "img/Personal_profile_page.jpg",
+            "skills": [
+                "HTML",
+                "CSS"
+            ]
+        },
+        {
+            "name": "Responsive Layout",
+            "description": "In this project, I built a responsive and mobile-first page from scratch using <strong>HTML<\/strong> and <strong>CSS<\/strong>. Mockups for three breakpoints were given, including a HTML5 <code>&lt;nav&gt;<\/code> element to navigate between the different sections of the page.",
+
+            "github": "https://github.com/birtemueller/responsive_layout_v2",
+            "img": "img/responsive_layout.jpg",
+            "skills": [
+                "HTML",
+                "CSS"
+            ]
+        },
+        {
+            "name": "Online Registration Form",
+            "description": "In this project, I built a responsive, mobile-friendly registration form using <strong>HTML forms<\/strong> and of course <strong>CSS<\/strong>. In addition to the mockup, I added <strong>HTML5 validation<\/strong> and placeholder text as well as <strong>CSS transitions<\/strong>",
+            "github": "https://github.com/birtemueller/online_registration",
+            "img": "img/online_registration.jpg",
+            "skills": [
+                "HTML",
+                "CSS"
+            ]
+        },
+        {
+            "name": "Photo Gallery",
+            "description": "This was the first project in which <strong>JavaScript<\/strong> was used. With the help of a <strong>jQuery plugin<\/strong> I built an interactive photo gallery which allowed the user to switch between images in a light box. Additionally, there was a search box so the user could search the image descriptions.",
+            "github": "https://github.com/birtemueller/photo_gallery",
+            "img": "img/image_gallery.jpg",
+            "skills": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "jQuery"
+            ]
+        },
+        {
+            "name": "CSS to SASS",
+            "description": "The starting point for this project was the code from the <i>Responsive Layout<\/i> project. The task was to refactor the styles using <strong>SCSS partials, variables, extends, and mixins<\/strong>",
+            "github": "https://github.com/birtemueller/project5_css2sass",
+            "img": "img/css2sass.jpg",
+            "skills": [
+                "HTML",
+                "CSS",
+                "SASS"
+            ]
+        },
+        {
+            "name": "SVG site update",
+            "description": "In this project, a website with PNG images was to be refactored using <strong>SVG files<\/strong>. I've added hover states to some of the SVGs and changed the colors of others.",
+            "github": "https://github.com/birtemueller/project6_svgsiteupdate",
+            "img": "img/svg_update.jpg",
+            "skills": [
+                "HTML",
+                "CSS",
+                "SVG"
+            ]
+        },
+        {
+            "name": "Game Show App",
+            "description": "This was the first project in which <strong>JavaScript<\/strong> was used without the help of plugins. It was a version of <i>Wheel of Success<\/i> in which the user clicks letters to guess a given phrase. If he chooses incorrectly more than five times, the game is over and he can start again.",
+            "github": "https://github.com/birtemueller/project7_gameshowapp",
+            "img": "img/gameshow_app.jpg",
+            "skills": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ]
+        },
+        {
+            "name": "Webapp Dashboard",
+            "description": "In this project, I built a dashboard with the help of a chart library called <i>chart.js<\/i>. It had some interacrive elements and <strong>local storage<\/strong> was used. For the basic layout I chose <strong>CSS Grid<\/strong>.",
+            "github": "https://github.com/birtemueller/project9_webapp_dashboard",
+            "img": "img/Webapp_Dashboard.jpg",
+            "skills": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ]
+        },
+        {
+            "name": "Employee Directory",
+            "description": "In this project, I built an employee directory using <strong>JavaScript<\/strong> and <strong>public API<\/strong>. The API provided random user data and the website displays them and allows the user to search for names and user names.",
+            "github": "https://github.com/birtemueller/project10_employee_directory",
+            "img": "img/Awesome_Startup.jpg",
+            "skills": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ]
+        },
+        {
+            "name": "React Image Gallery",
+            "description": "In this project, I built an image gallery using <strong>React<\/strong> and the <strong>Flickr API<\/strong>. The user could either navigate through the given topics or search for a certain key word.",
+            "github": "https://github.com/birtemueller/project11_react_image_gallery",
+            "img": "img/React_Image_Gallery.jpg",
+            "skills": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "React"
+            ]
+        }]
+}
