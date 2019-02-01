@@ -30,7 +30,7 @@ function displayProjects() {
 
         cardsHTML += '<div class="col-lg-4 col-md-6 project" data-toggle="modal" data-target="#projectModal" id="' + i  + '\">\n' +
             '            <div class="card mb-3">\n' +
-            '                    <img src="' + project.img + '\" class="card-img-top mx-auto p-3" alt="">\n' +
+            '                    <img src="' + project.img + '\" class="card-img-top mx-auto p-3" alt="\  ' + project.name + ' \">\n' +
             '                <div class="card-body">\n' +
             '                    <h5 class="card-title">\  ' + project.name + ' \</h5>\n'
             + skillsHTML +
