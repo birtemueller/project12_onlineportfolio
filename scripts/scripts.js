@@ -69,6 +69,7 @@ $("#filter")
 //open the modal box
 $(document).on("click", '.project', function(e) {
     selectedProject = parseInt($(e.target).closest('.project').attr('id'));
+    console.log(selectedProject);
     displayModal();
 });
 
