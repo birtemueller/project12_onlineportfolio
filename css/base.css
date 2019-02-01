@@ -46,6 +46,7 @@ a svg {
 
 .card-img-top,
 .modal-img {
+    width: 100%; /*IE fallback*/
     object-fit: contain;
 }
 
